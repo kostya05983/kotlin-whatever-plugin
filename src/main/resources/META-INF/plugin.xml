@@ -1,0 +1,30 @@
+<idea-plugin>
+    <id>kotlin-whatever-plugin</id>
+    <name>kotlin-whatever-plugin</name>
+    <version>1.0.0</version>
+    <idea-version since-build="193"/>
+    <vendor email="kostya05983@mail.ru"></vendor>
+
+    <description><![CDATA[
+
+    ]]></description>
+
+    <depends>org.jetbrains.kotlin</depends>
+    <depends>com.intellij.modules.java</depends>
+
+    <actions>
+        <group id="spring-choose-actions" text="Spring Generate" popup="true">
+            <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+        </group>
+
+        <group id="spring-generations-actions" text="Spring Generate" popup="true">
+            <add-to-group group-id="ProjectViewPopupMenu" anchor="first"/>
+        </group>
+    </actions>
+    <change-notes>
+        <![CDATA[
+      <html>
+      </html>
+      ]]>
+    </change-notes>
+</idea-plugin>
